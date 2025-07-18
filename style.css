@@ -1,0 +1,78 @@
+@font-face {
+    font-family: undertale;
+    src: url(./fonts/8bitOperatorPlus-Bold.ttf);
+}
+@font-face {
+    font-family: signalis;
+    src: url(./fonts/pokemon-dp-pro.ttf);
+}
+
+* {
+    font-family: 'undertale', sans-serif;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px 200px 0px 200px;
+    background-color: black;
+}
+hr {
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1,5rem;
+}
+.top-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+  display: block;
+  margin: auto;
+
+}
+.topic {
+    text-align: center;
+}
+.signalis {
+    font-family: 'signalis', sans-serif;
+    font-size: 2rem;
+    color: #f0040c;
+    text-decoration: none;
+}
+.reality {
+    width: 50rem;
+    display: block;
+    margin: 0 auto;
+}
+.icon {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.icon img {
+    display: block;
+    width: 50px;
+    height: auto;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.contact-link {
+    text-decoration: none;
+}
+
+
