@@ -43,6 +43,9 @@ h2 {
 .topic {
     text-align: center;
 }
+.me {
+    text-align: justify;
+}
 .signalis {
     font-family: 'signalis', sans-serif;
     font-size: clamp(20px, 5vw, 48px);
