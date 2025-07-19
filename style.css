@@ -6,15 +6,14 @@
     font-family: signalis;
     src: url(./fonts/pokemon-dp-pro.ttf);
 }
-
 * {
     font-family: 'undertale', sans-serif;
     color: white;
 }
-
 body, html {
     height: 100%;
-    margin: 0px 200px 0px 200px;
+    margin-left: clamp(10px, 10vw, 200px);
+    margin-right: clamp(10px, 10vw, 200px);
     background-color: black;
 }
 hr {
@@ -23,58 +22,55 @@ hr {
     margin-bottom: 5px;
 }
 h1 {
-    font-size: 48px;
+    font-size: clamp(20px, 5vw, 48px);
 }
 h2 {
-    font-size: 32px;
+    font-size: clamp(16px, 3vw, 36px);
 }
 .top-container {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: clamp(30px, 5vw, 100px);
+    margin-bottom: clamp(30px, 5vw, 100px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .name {
-  display: block;
-  margin: auto;
-  width: 1000px;
-  height: auto;
-
+    display: block;
+    margin: auto;
+    width: clamp(280px, 52vw, 1000px);
+    height: auto;
 }
 .topic {
     text-align: center;
 }
 .signalis {
     font-family: 'signalis', sans-serif;
-    font-size: 48px;
+    font-size: clamp(20px, 5vw, 48px);
     color: #f0040c;
     text-decoration: none;
 }
 .reality {
-    width: 1000px;
+    width: clamp(280px, 52vw, 1000px);
     display: block;
     margin: 0 auto;
 }
 .icon {
     background-color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: clamp(4px, 0.5vw, 10px);
+    border-radius: clamp(4px, 0.5vw, 10px);
     display: inline-block;
     
 }
 .icon img {
     display: block;
-    width: 50px;
+    width: clamp(22px, 2.5vw, 50px);
     height: auto;
 }
 .contact {
     display: flex;
     align-items: center;
-    gap: 10px; 
+    gap: clamp(4px, 0.5vw, 10px); 
 }
 .contact-link {
     text-decoration: none;
 }
-
-
