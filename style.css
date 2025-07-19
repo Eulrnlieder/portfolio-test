@@ -23,10 +23,10 @@ hr {
     margin-bottom: 5px;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 48px;
 }
 h2 {
-    font-size: 1,5rem;
+    font-size: 32px;
 }
 .top-container {
     margin-top: 100px;
@@ -38,6 +38,8 @@ h2 {
 .name {
   display: block;
   margin: auto;
+  width: 1000px;
+  height: auto;
 
 }
 .topic {
@@ -45,12 +47,12 @@ h2 {
 }
 .signalis {
     font-family: 'signalis', sans-serif;
-    font-size: 2rem;
+    font-size: 48px;
     color: #f0040c;
     text-decoration: none;
 }
 .reality {
-    width: 50rem;
+    width: 1000px;
     display: block;
     margin: 0 auto;
 }
